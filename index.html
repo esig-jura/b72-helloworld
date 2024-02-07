@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Jeu de caractères utilisé pour l'encodage du fichier HTML -->
     <meta charset="UTF-8">
-    <title>Hello World</title>
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
+    <title>Titre de la page | Nom du site</title>
+    <!-- Auteur -->
+    <meta name="author" content="Laure Dinateur">
+    <!-- Description de la page -->
+    <meta name="description" content="Brève description du contenu de la page.">
+    <!-- Reset CSS Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <!-- CSS de base -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-<h1>HTML Ipsum Presents</h1>
+<header>Introduction au JavaScript</header>
+<main>
+    <h1>Mon premier JavaScript</h1>
+    <h2>Sélectoinner des éléments avec
+    <code>document.querySelector()</code></h2>
+    <p>Un paragraphe pas trop long à lire</p>
+    <ul>
+        <li>Un élément de liste</li>
+        <li>Un autre élément de liste</li>
+        <li>Un dernier élément de liste</li>
+    </ul>
+    <p>Un autre paragraphe pour voir</p>
+    <p>Un dernier paragraphe pour la route</p>
 
-<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas.
-    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
-    semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien
-    ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi.
-    Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a
-            href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-
-<h2>Header Level 2</h2>
-
-<ol>
-    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-    <li>Aliquam tincidunt mauris eu risus.</li>
-</ol>
-
-<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet
-    congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus
-    est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-
-<h3>Header Level 3</h3>
-
-<ul>
-    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-    <li>Aliquam tincidunt mauris eu risus.</li>
-</ul>
+    <h2>Liste de courses dynamique</h2>
+    <label for="article">J'ai besoin...</label>
+    <input type="text" id="article">
+    <button>Ajouter 🛒</button>
+    <ul id="liste">
+        <li>Pain</li>
+        <li>Beurre</li>
+        <li>Confiture</li>
+    </ul>
+</main>
+<footer>
+    &copy;2024 Steve Fallet
+</footer>
 </body>
 </html>
